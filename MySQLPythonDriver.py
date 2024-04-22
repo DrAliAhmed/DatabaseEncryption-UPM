@@ -8,7 +8,7 @@ def connect_fetch():
             host='localhost',        # Or the appropriate host where your database is hosted
             database='DevEnviroTests',
             user='root',    # Replace with your MySQL database username
-            password='YOUR-PASSWORD' # Replace with your MySQL database password
+            password='Root123456' # Replace with your MySQL database password
         )
         if conn.is_connected():
             print('Connected to the database')
@@ -38,7 +38,7 @@ def insert_user(user_data):
             host='localhost',        # Or the appropriate host where your database is hosted
             database='DevEnviroTests',
             user='root',    # Replace with your MySQL database username
-            password='YOUR-PASSWORD' # Replace with your MySQL database password
+            password='Root123456' # Replace with your MySQL database password
         )
         if conn.is_connected():
             cursor = conn.cursor()
